@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WebGuitar</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		
+		<script src="./public/javascripts/main.js"></script>
+		<link href="./public/stylesheets/main.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="container">
+	
+		<div class="page-header">
+			<h1>WebGuitar</h1>
+			<p>キーボードを叩くとファッキンな音が鳴るぜ</p>
+		</div>
+
+		
+		<div class="panel panel-default">
+			<div class="panel-heading">メインボード</div>
+			<div class="panel-body">
+			
+				<div>
+					<button type="button" class="btn btn-default active">即興</button>
+					<button type="button" class="btn btn-primary">楽譜</button>
+				</div>
+				
+				<hr>
+			
+				<div>
+				<span>まだ作ってへんで</span>
+				</div>
+
+
+			</div>
+		</div>
+		
+		
+		<div class="panel panel-default">
+			<div class="panel-heading">対応表</div>
+			<div class="panel-body">
+			
+				<table class="table">
+					<thead>
+						<tr>
+							<th>キー</th>
+							<th>音色・効果</th>
+							<th>備考</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr><th>A ~ G</th><td>[A ~ G]キー</td><td><p>基本左手で押せる。</p></td></tr>
+						<tr><th>#</th><td>[A ~ G] + [Q]</td><td><p>A ~ Gキーを押す前にあらかじめ押さえる。</p></td></tr>
+						<tr><th>b</th><td>[A ~ G] + [W]</td><td><p>シャープに同じく……。</p></td></tr>
+						<tr><th>マイナー</th><td>[A ~ G] + [Shift]</td><td><p>A ~ G, Q, Wキーを押す前にあらかじめ押さえる。</p></td></tr>
+						<tr><th>セブンス</th><td>[A ~ G] + [Ctrl]</td><td><p>マイナーに同じく……。</p></td></tr>
+					</tbody>
+				</table>
+			
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
